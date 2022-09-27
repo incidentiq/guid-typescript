@@ -1,13 +1,13 @@
 {
-  "name": "guid-typescript",
-  "version": "1.0.8",
+  "name": "@incidentiq/guid-typescript",
+  "version": "1.0.11",
   "description": "Guid generator to typescript",
   "scripts": {
     "verify": ".\\node_modules\\.bin\\tslint .\\lib\\**",
     "test": "npm run verify && mocha -r ts-node/register tests/*.spec.ts",
     "build": ".\\node_modules\\.bin\\tsc lib/guid -t es3 -m commonjs -d --outDir dist"
   },
-  "author": "nicolas",
+  "author": "mike",
   "license": "ISC",
   "keywords": [
     "typescript",
@@ -18,7 +18,7 @@
   "types": "./dist/guid.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NicolasDeveloper/guid-typescript"
+    "url": "https://github.com/incidentiq/guid-typescript"
   },
   "devDependencies": {
     "@types/chai": "^4.1.0",
