@@ -61,9 +61,7 @@ export class Guid {
     }
 
     public toJSON(): any {
-        return {
-            value: this.value,
-        };
+        return this.value;
     }
 }
 
